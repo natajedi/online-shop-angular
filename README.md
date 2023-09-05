@@ -1,4 +1,5 @@
-# OnlineShopAngular
+# Study project using Angular, JSON Server
+## Online Shop 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
