@@ -1,42 +1,41 @@
-    <p>
-      <mat-toolbar>
-        <span>Online Shop</span>
+
+<p>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <div class="toolbar no-select" routerLink="">
+        <mat-icon style="margin-right: 5px">home</mat-icon>
+        <span class="example-spacer">Online Shop</span>
+        </div>
+        <span class="example-spacer"></span>
+        <div class="toolbar no-select">
+        <button class="toolbar button" mat-icon-button routerLink="">Menu</button>
+          <mat-icon>menu</mat-icon>
+
+        <button class="toolbar button" mat-icon-button routerLink="products">Products</button>
         <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
           <mat-icon>login</mat-icon>
         </button>
         <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-          <mat-icon>delete</mat-icon>
+          <mat-icon>share</mat-icon>
         </button>
-      </mat-toolbar>
-    </p>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>
+<p>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span class="example-spacer">Second Line</span>
+      <span class="example-spacer"></span>
+      <button class="toolbar button" mat-icon-button routerLink="basket">Basket</button>
+        <mat-icon>shopping_cart</mat-icon>
 
-
-
-    <p>
-      <mat-toolbar color="primary">
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-          <mat-icon>menu</mat-icon>
-        </button>
-        <span>My App</span>
-        <span class="example-spacer"></span>
-      </mat-toolbar>
-    </p>
-
-    <p>
-      <mat-toolbar color="primary">
-        <mat-toolbar-row>
-          <span>Second Line</span>
-          <span class="example-spacer"></span>
-          <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-            <mat-icon>shopping_cart</mat-icon>
-          </button>
-          <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-            <mat-icon>favorite</mat-icon>
-          </button>
-          <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-            <mat-icon>share</mat-icon>
-          </button>
-        </mat-toolbar-row>
-      </mat-toolbar>
-    </p>
-
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>
