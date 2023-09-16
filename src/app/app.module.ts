@@ -13,6 +13,8 @@ import { BaseComponent } from './components/base/base.component';
 import { DialogBoxComponent } from './components/dialog-box/dialog-box.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import { HttpClient, HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { MatIconModule } from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
