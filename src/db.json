@@ -5,12 +5,12 @@
  "title": "MacBook",
  "price": 800,
  "year": "2022",
- "image": "assets/images/mac.jpg",
+ "image": "assets/images/macbook.jpg",
  "configure": {
  "chip": "M1",
  "SSD": "256 GB",
  "memory": "16 GB",
- "display": "Retina",
+ "display": "Retina"
  }
  },
  {
@@ -18,12 +18,12 @@
  "title": "MacBook Air",
  "price": 900,
  "year": "2022",
- "image": "assets/images/mac.jpg",
+ "image": "assets/images/macbook.jpg",
  "configure": {
  "chip": "M1",
  "SSD": "256 GB",
  "memory": "16 GB",
- "display": "Retina",
+ "display": "Retina"
  }
  },
  {
@@ -31,12 +31,12 @@
  "title": "MacBook Pro",
  "price": 1000,
  "year": "2023",
- "image": "assets/images/mac2.jpg",
+ "image": "assets/images/macbook.jpg",
  "configure": {
  "chip": "M1",
  "SSD": "256 GB",
  "memory": "16 GB",
- "display": "Retina",
+ "display": "Retina"
  }
  },
  {
@@ -44,13 +44,13 @@
  "title": "MacBook",
  "price": 1100,
  "year": "2023",
- "image": "assets/images/mac3.jpg",
+ "image": "assets/images/macbook.jpg",
  "configure": {
  "chip": "M1",
  "SSD": "256 GB",
  "memory": "16 GB",
- "display": "Retina",
+ "display": "Retina"
  }
- },
+ }
  ]
  }
