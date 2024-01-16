@@ -16,6 +16,8 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import { HttpClient, HttpClientModule} from '@angular/common/http';
 
+// Я бы настоятельно советовал перейти на standalone компоненты, так у тебя пропадет необходимость в
+// модулях, и следовательно будет проще работать с проектом.
 @NgModule({
   declarations: [
     AppComponent,

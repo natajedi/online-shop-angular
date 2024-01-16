@@ -1,3 +1,4 @@
+// Весь код должен лежать в папке src
 export interface IProducts {
   id: number,
   title: string,
